@@ -8,3 +8,4 @@
 
 CREATE ROLE [roleName];
 GRANT VIEW ANY DEFINITION TO roleName;
+EXEC sp_addrolemember 'roleName', 'yourlogin'
